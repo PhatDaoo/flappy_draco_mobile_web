@@ -7,8 +7,8 @@ let boardWidth = 320;
 let boardHeight = 568; 
 
 // Draco
-let dracoWidth = 60; 
-let dracoHeight = 60;
+let dracoWidth = 50; 
+let dracoHeight = 50;
 let dracoX = boardWidth / 8;
 let dracoY = boardHeight / 2;
 let draco = { x: dracoX, y: dracoY, width: dracoWidth, height: dracoHeight, rotation: 0 };
