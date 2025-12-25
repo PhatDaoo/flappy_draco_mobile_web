@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #2c3e50;
+    overflow: hidden; /* Chặn kéo trang */
+    touch-action: none; /* Chặn hành động chạm mặc định của trình duyệt */
+}
+
+#board {
+    background-color: #70c5ce;
+    display: block;
+    width: 100%; /* Full màn hình chiều ngang */
+    height: 100vh; /* Full màn hình chiều dọc */
+    
+    /* Kỹ thuật quan trọng: Render kiểu Pixel để nhẹ máy */
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
